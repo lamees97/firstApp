@@ -16,7 +16,7 @@ export default class Comp1 extends React.Component {
     return (
       <div>
         <List>
-         <h2>hi</h2>
+         <h2>hello</h2>
           {this.props.data.map((item, index) => {
             if (item.status === "Inbox") {
               return (
