@@ -21,9 +21,9 @@ export default class Comp1 extends React.Component {
               return (
                 <div style={{ backgroundColor: "lightgray" }}>
                   <ListItem alignItems="flex-start" key={index}>
-                    <ListItemAvatar>
+                    {/* <ListItemAvatar>
                       <Avatar alt="Remy Sharp" src={`./images/${item.Image}`} />
-                    </ListItemAvatar>
+                    </ListItemAvatar> */}
                     <ListItemText
                       primary={`${item.SName}`}
                       secondary={
